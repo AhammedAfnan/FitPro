@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+    height: 100px;
+}
+
+.logo{
+    width: 150px;
+    height: 60px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.categories{
+    list-style: none;
+    display: flex;
+    padding-left: 23%;
+    padding-top: 2%;
+}
+
+.categ{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+}
+
+.products-field {
+    background-color: rebeccapurple;
+}
+
+.products{
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+}
+
+.sizes{
+    width: 95%;
+    height: 95%;
+    margin-top: 20px;
+}
+
+.size{
+    width: 95%;
+    height: 75%;
+    margin-top: 70px;
+}
+
+.footer{
+    background-color: black;
+    height: 300px;
+}
+
+.footer-logo{
+    width: 150px;
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 45%;
+}
+
+.pages{
+    display: flex;
+    list-style: none;
+    padding-left: 43%;
+    margin-bottom: 50px;
+}
+
+.elements{
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.para{
+    color: white;
+    padding-left: 31%;
+}
+
+.para i,a{
+    color: #FF0000;
+    text-decoration: none;
+}
